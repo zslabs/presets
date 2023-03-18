@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~data/*": ["data/*"],
+      "~components/*": ["components/*"],
+      "~helpers/*": ["helpers/*"],
+      "~hooks/*": ["hooks/*"],
+      "~icons/*": ["icons/*"],
+      "~layouts/*": ["layouts/*"],
+      "~lib/*": ["lib/*"],
+      "~media/*": ["media/*"],
+      "~api/*": ["pages/api/*"],
+      "~styles/*": ["styles/*"],
+      "~types/*": ["types/*"]
+    },
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules"],
+  "types": ["types"]
+}
